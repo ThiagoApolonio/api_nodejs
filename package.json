@@ -1,0 +1,27 @@
+{
+  "name": "apinodejs",
+  "version": "1.0.0",
+  "description": "Primeira Api em NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "ThiagoApolonio",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoApolonio/api_nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThiagoApolonio/api_nodejs/issues"
+  },
+  "homepage": "https://github.com/ThiagoApolonio/api_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
